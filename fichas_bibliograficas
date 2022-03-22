@@ -78,3 +78,30 @@ def run():
         print(revistaunam)
     
     
+
+    elif opcion == "3":
+        apellido = input("Apellido del autor: ")
+        nombre = input("Nombre del autor: ")
+        titulo = input("Título de la tesis: ")
+        programa = input("Programa académico: ")
+        lugar = input("Lugar de realización: ")
+        universidad = input("Universidad de realización: ")
+        fecha = input("Fecha de realización: ")
+        paginas = input("Número de páginas: ")
+        
+        tesishistmex = apellido + ", " + nombre + ", '" + titulo + "', " + programa + ", " + lugar + ", " + universidad + ", " + fecha + "."
+        tesisunam = apellido + ", " + nombre + " '" + titulo + "', tesis de " + programa + ", " + lugar + ", " + universidad + ", " + fecha + ", " + paginas + "p."
+        
+        print("""
+        La referencia de la tesis en el sistema de la revista Historia Méxicana es: """) 
+        print(tesishistmex)
+        
+        print("""
+        La referencia de la tesis en el sistema del I. Históricas UNAM es: """) 
+        print(tesisunam)
+        
+
+while True:
+    run()
+    
+    
