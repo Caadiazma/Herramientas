@@ -33,7 +33,7 @@ def run():
         librounam = apellido + ", " + nombre + ", " + titulo + ", " + lugar + ", " + editorial + ", " + fecha + ", " + paginas + "p."
         
         print("""
-        La referencia del libro en el sistema de la revista Historia Méxicana es: """) 
+        La referencia del libro en el sistema de la revista Historia Mexicana es: """) 
         print(librohistmex)
               
         print("""
@@ -60,7 +60,7 @@ def run():
         revistaunam = apellido + ", " + nombre + ", '" + titulo + "', " + revista + ", " + entidad_editora + ", " + lugar + ", " + numero_revista + ", " + fecha + ", " + "p. " + paginas + "."
         
         print("""
-        La referencia del artículo en el sistema de la revista Historia Méxicana es: """) 
+        La referencia del artículo en el sistema de la revista Historia Mexicana es: """) 
         print(revistahistmex)
         
         print("""
@@ -81,7 +81,7 @@ def run():
         tesisunam = apellido + ", " + nombre + " '" + titulo + "', tesis de " + programa + ", " + lugar + ", " + universidad + ", " + fecha + ", " + paginas + "p."
         
         print("""
-        La referencia de la tesis en el sistema de la revista Historia Méxicana es: """) 
+        La referencia de la tesis en el sistema de la revista Historia Mexicana es: """) 
         print(tesishistmex)
         
         print("""
