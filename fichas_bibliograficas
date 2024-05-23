@@ -90,7 +90,7 @@ def run():
         paginas = input("Número de páginas: ")
         
         tesishistmex = apellido + ", " + nombre + ", '" + titulo + "', tesis de " + programa + ", " + lugar + ", " + universidad + ", " + fecha + "."
-        tesisunam = apellido + ", " + nombre + " '" + titulo + "', tesis de " + programa + ", " + lugar + ", " + universidad + ", " + fecha + ", " + paginas + "p."
+        tesisunam = apellido + ", " + nombre + ", '" + titulo + "', tesis de " + programa + ", " + lugar + ", " + universidad + ", " + fecha + ", " + paginas + "p."
         
         print("""
         La referencia de la tesis en el sistema de la revista Historia Méxicana es: """) 
